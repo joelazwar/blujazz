@@ -1,0 +1,63 @@
+body{
+    background-color: grey;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #main{
+    width: 50vw;
+    max-width: 700px;
+    height: 300vh;
+    border-radius: 25px;
+    /*background: rgba(237, 231, 225, .2);*/
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+  
+  #nav {
+    width:20vw;
+    max-width:300px;
+    position:fixed;
+    right:0;
+  }
+
+  #logo {
+    width:100%;
+    transition: transform .2s;
+  }
+
+  #logo:hover {
+    transform: scale(1.1); 
+  }
+
+  .icon{
+    width:20%;
+    margin-right:10px;
+    transition: transform .2s;
+  }
+
+  .icon:hover {
+    transform: scale(1.2); 
+  }
+
+  #album {
+    padding:10px;
+    border-radius:10px;
+    background-color: rgba(37, 37, 37, 0.514);
+  }
+
+  #cover {
+    opacity:100%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    width: 75%;
+    border-radius: 10px;
+    height: auto;
+    text-align: center;
+  }
+  
+  
