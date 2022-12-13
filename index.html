@@ -6,22 +6,46 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-  <script src="script.js"></script>
-    <div id=main>
+    <section id=main>
       <div id="nav">
         <a href="/"><img id="logo" src="images/blujazz.gif" /></a>
-        <a href="https://instagram.com/blu.jaz"><img class="icon" src="https://cdn-icons-png.flaticon.com/512/87/87390.png" /></a>
-        <a href="https://open.spotify.com/artist/3xljo6K6D0xcncseff9h7a?si=RSSYtLbFT5-yrJ6zx9lW6g"><img class="icon" src="https://cdn-icons-png.flaticon.com/512/87/87409.png" /></a>
-        <a href="https://music.apple.com/ne/artist/blujazz/1546143629"><img class="icon" src="images/applemusic.png"/></a>
+        <a href="https://instagram.com/blu.jaz" target="_blank" rel="noopener noreferrer"><img class="icon" src="https://cdn-icons-png.flaticon.com/512/87/87390.png" /></a>
+        <a href="https://open.spotify.com/artist/3xljo6K6D0xcncseff9h7a?si=RSSYtLbFT5-yrJ6zx9lW6g" target="_blank" rel="noopener noreferrer"><img class="icon" src="https://cdn-icons-png.flaticon.com/512/87/87409.png" /></a>
+        <a href="https://music.apple.com/ne/artist/blujazz/1546143629" target="_blank" rel="noopener noreferrer"><img class="icon" src="images/applemusic.png"/></a>
       </div>
       <div id=album>
-        <img id=cover src="https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F2344663--6B1363B8-F8F3-4022-926C36676619ED4B--1608476031825--coverlowerres.png?fm=jpg&q=75&w=800&s=36b93d24007b28269e7dd7b384c61319" />
+        <img id=cover onmouseover="this.src='images/albumhover.gif'" onmouseout="this.src='https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F2344663--6B1363B8-F8F3-4022-926C36676619ED4B--1608476031825--coverlowerres.png?fm=jpg&q=75&w=800&s=36b93d24007b28269e7dd7b384c61319'" src="https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F2344663--6B1363B8-F8F3-4022-926C36676619ED4B--1608476031825--coverlowerres.png?fm=jpg&q=75&w=800&s=36b93d24007b28269e7dd7b384c61319" />
         <br>
       <img src="images/outnow.gif" width=80% style="margin:0px 50px"/>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6gZMDsdXxQEZXoTyAVfoDT?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6gZMDsdXxQEZXoTyAVfoDT?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       <br/><br/><br/>
       <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;display:block;margin: 0px auto;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/ne/album/in-blume-ep/1546150889"></iframe>
+      </div>
+      <br/><br/>
+      <div style="width:30%;text-align:center; border-radius:30px; background-color:rgba(0, 0, 0, 0.381); margin:auto"><img src="images/gallery.gif" style="width:100%;transform:translateY(20%)"></div><br>
+      <div class="carousel">
+        <button class="carousel-button btn-left"><img onmouseover="this.src='images/l.gif'" onmouseout="this.src='images/l.png'" src="images/l.png" /></button>
+        <div class="track-container">
+          <ul class="track">
+            <li class="slide"><img src="https://i.scdn.co/image/ab6761670000ecd46a7416b1ea87cd9b133bbc07"></li>
+            <li class="slide"><img src="https://i.scdn.co/image/ab6761670000ecd472e54fba9bceeb3eb197328d"></li>
+            <li class="slide"><img src="https://i.scdn.co/image/ab6761670000ecd49a7c62cf5ec5bee068d3e603"></li>
+            <li class="slide"><img src="https://i.scdn.co/image/73680ef67ad015b1fe527aa5dbcf670d805f3339"></li>
+            <li class="slide"><img src="https://i.scdn.co/image/cfef2999dcede24920e00bb81c54881b8fea20d7"></li>
+            <li class="slide"><img src="https://i.scdn.co/image/bfee91b34fda8cdfbc2e645d4b3103ee9e8dbd22"></li>
+            <li class="slide"><img src="https://i.scdn.co/image/4ef7f1817edbe6cebbd7acf8b4e2354eacb9bce4"></li>
+            <li class="slide"><img src="https://i.scdn.co/image/ddb993d99207a21bcf35d598bba19fae1ff3335d"></li>
+            <li class="slide"><img src="https://i.scdn.co/image/89bbd6660eecabd2d6531f97f996eca14bc6a9ce"></li>
+          </ul>
+        </div>
+        <button class="carousel-button btn-right"><img onmouseover="this.src='images/r.gif'" onmouseout="this.src='images/r.png'" src="images/r.png" /></button>
+      </div>
     </div>
-    </div>
+
+    <footer>
+      <p>Created by Joel Azwar<br>
+      <a href="mailto:joel_azwar@yahoo.com">joel_azwar@yahoo.com</a></p>
+    </footer>
+  <script src="script.js"></script>
   </body>
 </html>
