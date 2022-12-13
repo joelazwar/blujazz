@@ -68,7 +68,11 @@ body {
     position: relative;
     height:600px;
     width:80%;
+    max-width:1000px;
     margin: 0 auto;
+    padding:20px;
+    background-color: rgba(0, 0, 0, 0.596);
+    border-radius: 20px;
 }
 
 .track-container{
@@ -76,6 +80,7 @@ body {
     height:100%;
     position:relative;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .track{
