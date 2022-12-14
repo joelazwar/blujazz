@@ -43,7 +43,7 @@ body {
     overflow: hidden;
     padding: 10px;
     border-radius: 10px;
-    background-color: rgba(37, 37, 37, 0.514);
+    background: radial-gradient(rgb(0, 0, 0) 10%, rgba(128, 128, 128, 0)75%);
 
 }
 
@@ -70,7 +70,7 @@ body {
     width:80%;
     max-width:1000px;
     margin: 0 auto;
-    padding:20px;
+    padding:10px;
     background-color: rgba(0, 0, 0, 0.596);
     border-radius: 20px;
 }
