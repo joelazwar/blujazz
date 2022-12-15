@@ -1,7 +1,10 @@
 //randomize background
-var num = Math.ceil( Math.random() * 1 );
-var src =`images/bg/canvas${num}.gif;
-document.getElementById('bg-video').setAttribute('src', src)
+var num = Math.ceil( Math.random() * 5 );
+
+let bg = document.querySelector('#bg')
+let bg_src = document.querySelector('#bg-video')
+bg_src.src=`/images/bg/canvas${num}.mp4`
+bg.load();
 
 //carousel script
 const track=document.querySelector('.track')
